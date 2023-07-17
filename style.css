@@ -1,0 +1,18 @@
+div {
+    color: black;
+}
+.important {
+    color: #A5B4FC;
+}
+.a-propos {
+    text-align: right;
+}
+p {
+    font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    color: #A5B4FC;
+}
