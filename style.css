@@ -1,18 +1,57 @@
-div {
+body {
+    background-color: #1F2039;
+    color: white;
+    font-size: 1em;
+}
+.entete , .pied-de-page {
+    background-color: white;
     color: black;
 }
-.important {
-    color: #A5B4FC;
-}
-.a-propos {
-    text-align: right;
-}
-p {
-    font-size: 1.1em;
+p, li{
     font-family: 'Manrope', sans-serif;
+    font-size: 1.1em;
+    color: #F9F8FF;
+}
+em {
+    color: #a5b4fc;
+    font-style: normal;
 }
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 3.5em;
     color: #A5B4FC;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    color: #242424;
+    text-decoration: none;
+}
+h2 {
+    font-family: 'Manrope', sans-serif;
+    color: #F9F8FF;
+}
+.cta {
+    background: linear-gradient(#8E86B5,#ACAEED);
+    color: white;
+    border-radius: 50px;
+}
+.a-propos {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+}
+a[title]:hover{
+    text-decoration: underline;
+}
+.cta:hover{
+    background: linear-gradient(#696484,#8788BA);
+    text-decoration: none;
+}
+.entete img:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
+.pied-de-page img:hover{
+    opacity: 0.5;
+    text-decoration: none;
 }
